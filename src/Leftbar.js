@@ -19,7 +19,7 @@ export default function leftbar() {
                         <img src={logo} alt="logo" />
                     </div>
                     <div className="tags">
-                        <Link to="/" className="tag-container">
+                        <Link to="/Spotify" className="tag-container">
                             <img src={home} alt="home" />
                             <p className="tags">Home</p>
                         </Link>

@@ -17,7 +17,7 @@ function App() {
       <div className="container">
         <Leftbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Spotify">
             <Page />
           </Route>
           <Route exact path="/search">
