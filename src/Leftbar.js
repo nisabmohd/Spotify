@@ -6,7 +6,10 @@ import search from './spotify icons/search.png'
 import lib from './spotify icons/library.png'
 import heart from './spotify icons/fav.png'
 import plus from './spotify icons/plus.png'
-
+import {
+    BrowserRouter as Router,
+    Link
+} from "react-router-dom";
 export default function leftbar() {
     return (
         <>
@@ -16,33 +19,31 @@ export default function leftbar() {
                         <img src={logo} alt="logo" />
                     </div>
                     <div className="tags">
-                        <a href="/" className="tag-container">
+                        <Link to="/" className="tag-container">
                             <img src={home} alt="home" />
                             <p className="tags">Home</p>
-                        </a>
-                        <a href="/" className="tag-container">
+                        </Link>
+                        <Link to="/search" className="tag-container">
                             <img src={search} alt="home" />
                             <p className="tags">Search</p>
-                        </a>
-                        <a href="/" className="tag-container">
+                        </Link>
+                        <Link to="/library" className="tag-container">
                             <img src={lib} alt="home" />
                             <p className="tags">Your Library</p>
-                        </a>
-
-
+                        </Link>
                         <div className="tag2container">
-                            <a href="/" className="tag-container2">
+                            <Link to="/playlist" className="tag-container2">
                                 <div className="plus-container">
-                                    <img src={plus} alt="plus" className="plus"/>
+                                    <img src={plus} alt="plus" className="plus" />
                                 </div>
                                 <p className="tags">Create Playlist</p>
-                            </a>
-                            <a href="/" className="tag-container2 hr" >
+                            </Link>
+                            <Link to="/liked" className="tag-container2 hr" >
                                 <div className="heart-container">
                                     <img src={heart} alt="home" className="heart" />
                                 </div>
                                 <p className="tags">Liked Songs</p>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

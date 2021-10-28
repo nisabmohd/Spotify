@@ -8,6 +8,13 @@ import prevm from './spotify icons/prevm.png'
 import nextm from './spotify icons/nextm.png'
 import repeat from './spotify icons/repeat.png'
 import play from './spotify icons/resumed.png'
+
+import fullvol from './spotify icons/fullvol.png'
+import mic from './spotify icons/mic.png'
+import pcimg from './spotify icons/pcimg.png'
+import rico from './spotify icons/rico.png'
+
+
 export default function Playbar() {
     return (
         <div className="bottom">
@@ -39,11 +46,19 @@ export default function Playbar() {
                     </div>
                 </div>
                 <div className="movebar">
-                    <input type="range" max="100" min="0" value="15" />
+                    <input type="range" max="100" min="0" value="1" />
                 </div>
             </div>
             <div className="right">
-
+                    <div className="ricons">
+                        <div className="rbuttons">
+                        <img src={mic} alt="" className="rbtns" />
+                        <img src={rico} alt="" className="rbtns" />
+                        <img src={pcimg} alt="" className="rbtns" />
+                        <img src={fullvol} alt="" className="rbtns" />
+                        </div>
+                        <input type="range" />
+                    </div>
             </div>
         </div>
     )

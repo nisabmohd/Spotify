@@ -12,6 +12,7 @@
 .logo img{
     margin-top: 18.5px;
     width: 136px;
+    cursor: pointer;
 }
 .tag-container,.tag-container2{
     display: flex;
