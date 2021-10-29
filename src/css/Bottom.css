@@ -1,5 +1,5 @@
 .bottom{
-    width: 100%;
+    width: 100vw;
     height: 90px;
     background-color: rgb(22, 22, 22);
     position: absolute;
@@ -129,4 +129,15 @@
 }
 .ricons input:hover{
     accent-color: rgb(36, 136, 36);
+}
+.audionow{
+    display: none;
+}
+@media screen and (max-width:828px){
+    .ricons {
+        display: none;
+    }
+    .middle{
+        display: none;
+    }
 }

@@ -7,7 +7,6 @@ import lib from './spotify icons/library.png'
 import heart from './spotify icons/fav.png'
 import plus from './spotify icons/plus.png'
 import {
-    BrowserRouter as Router,
     Link
 } from "react-router-dom";
 export default function leftbar() {
