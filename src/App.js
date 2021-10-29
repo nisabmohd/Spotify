@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Leftbar from './Leftbar'
-import Playbar from './Playbar'
+// import Playbar from './Playbar'
 import Page from './Page'
 import Search from './Search';
 import LikedSongs from './Liked';
@@ -33,7 +33,7 @@ function App() {
             <LikedSongs />
           </Route>
         </Switch>
-        <Playbar />
+        
       </div>
     </Router>
   )

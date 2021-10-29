@@ -18,10 +18,11 @@ import bose from './music thhb/bose.png'
 import virus from './music thhb/virus.png'
 import horror from './music thhb/horror.png'
 import chanakya from './music thhb/chanakya.png'
-
+import Playbar from './Playbar'
 
 export default function Page() {
     return (
+        <>
         <div className="main-container">
             <div className="moveright">
                 <div className="header">
@@ -177,5 +178,7 @@ export default function Page() {
                 </div>
             </div>
         </div>
+        <Playbar />
+        </>
     )
 }
