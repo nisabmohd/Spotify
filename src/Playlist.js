@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/background.css'
-import Playbar from './Playbar'
+// import Playbar from './Playbar'
 export default function Playlist() {
     return (
         <>
@@ -9,7 +9,7 @@ export default function Playlist() {
 
         </div>
     </div>
-    <Playbar />
+    {/* <Playbar /> */}
     </>
     )
 }

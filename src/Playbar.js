@@ -25,7 +25,6 @@ export default function Playbar() {
     const [play, setplay] = useState('play')
     document.title = 'Can I Call You Mine'
     function func() {
-        let palysize
         let barrange = document.getElementById('barrange')
         let callyoumine = document.getElementById('callyoumine')
         let dur = ((callyoumine.duration))
@@ -35,7 +34,7 @@ export default function Playbar() {
             setImg1(playic)
             callyoumine.play();
             setplay('pause')
-            palysize=setInterval(() => {
+            setInterval(() => {
                barrange.value=t++
             },dur*10);
             if(barrange.value===100){

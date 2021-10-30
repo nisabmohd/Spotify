@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/Search.css'
 import './css/background.css'
-import Playbar from './Playbar'
+// import Playbar from './Playbar'
 export default function Search() {
     return (
         <>
@@ -10,7 +10,7 @@ export default function Search() {
 
             </div>
         </div>
-        <Playbar />
+        {/* <Playbar /> */}
         </>
     )
 }

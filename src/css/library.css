@@ -1,0 +1,26 @@
+.plsylistboxblur{
+    width: 430px;
+    height: 285px;
+    background:linear-gradient(145deg,rgb(44, 44, 196),rgb(120, 102, 139));
+    border-radius: 5px;
+    text-decoration: none;
+}
+.h3wherelike{
+    padding-top: 29%;
+}
+.h3wherelike  h3{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.h3wherelike  p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 15px;
+}
+.plsylistboxblur-cont{
+    text-decoration: none;
+}

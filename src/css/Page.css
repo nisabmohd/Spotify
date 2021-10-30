@@ -90,6 +90,7 @@
       height: 80px;
       margin-bottom: 16px;
       cursor: pointer;
+      text-decoration: none;
   }
   .ipimg img{
         width: 80px;

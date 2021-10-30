@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/background.css'
-import Playbar from './Playbar'
+// import Playbar from './Playbar'
 export default function Liked() {
     return (
         <>
@@ -9,7 +9,7 @@ export default function Liked() {
 
         </div>
     </div>
-    <Playbar />
+    {/* <Playbar /> */}
     </>
     )
 }
