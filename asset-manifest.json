@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Spotify/static/css/main.19bd2df4.chunk.css",
-    "main.js": "/Spotify/static/js/main.f4ca71ef.chunk.js",
-    "main.js.map": "/Spotify/static/js/main.f4ca71ef.chunk.js.map",
-    "runtime-main.js": "/Spotify/static/js/runtime-main.36a9196a.js",
-    "runtime-main.js.map": "/Spotify/static/js/runtime-main.36a9196a.js.map",
-    "static/js/2.e9243478.chunk.js": "/Spotify/static/js/2.e9243478.chunk.js",
-    "static/js/2.e9243478.chunk.js.map": "/Spotify/static/js/2.e9243478.chunk.js.map",
-    "static/js/3.aaeedb35.chunk.js": "/Spotify/static/js/3.aaeedb35.chunk.js",
-    "static/js/3.aaeedb35.chunk.js.map": "/Spotify/static/js/3.aaeedb35.chunk.js.map",
+    "main.css": "/Spotify/static/css/main.269a5be0.chunk.css",
+    "main.js": "/Spotify/static/js/main.b44ab043.chunk.js",
+    "main.js.map": "/Spotify/static/js/main.b44ab043.chunk.js.map",
+    "runtime-main.js": "/Spotify/static/js/runtime-main.1ae819dd.js",
+    "runtime-main.js.map": "/Spotify/static/js/runtime-main.1ae819dd.js.map",
+    "static/js/2.4a017743.chunk.js": "/Spotify/static/js/2.4a017743.chunk.js",
+    "static/js/2.4a017743.chunk.js.map": "/Spotify/static/js/2.4a017743.chunk.js.map",
+    "static/js/3.f3cf0c2a.chunk.js": "/Spotify/static/js/3.f3cf0c2a.chunk.js",
+    "static/js/3.f3cf0c2a.chunk.js.map": "/Spotify/static/js/3.f3cf0c2a.chunk.js.map",
     "index.html": "/Spotify/index.html",
-    "static/css/main.19bd2df4.chunk.css.map": "/Spotify/static/css/main.19bd2df4.chunk.css.map",
-    "static/js/2.e9243478.chunk.js.LICENSE.txt": "/Spotify/static/js/2.e9243478.chunk.js.LICENSE.txt",
+    "static/css/main.269a5be0.chunk.css.map": "/Spotify/static/css/main.269a5be0.chunk.css.map",
+    "static/js/2.4a017743.chunk.js.LICENSE.txt": "/Spotify/static/js/2.4a017743.chunk.js.LICENSE.txt",
     "static/media/Call You Mine.cb956710.mp3": "/Spotify/static/media/Call You Mine.cb956710.mp3",
     "static/media/bose.310304f7.png": "/Spotify/static/media/bose.310304f7.png",
     "static/media/call youu mine.294bdd8c.jpg": "/Spotify/static/media/call youu mine.294bdd8c.jpg",
     "static/media/chanakya.16b83f67.png": "/Spotify/static/media/chanakya.16b83f67.png",
     "static/media/counting on you.885a897d.png": "/Spotify/static/media/counting on you.885a897d.png",
+    "static/media/createplay.8935a118.png": "/Spotify/static/media/createplay.8935a118.png",
     "static/media/horror.907b5f21.png": "/Spotify/static/media/horror.907b5f21.png",
     "static/media/logo.d8ece09e.png": "/Spotify/static/media/logo.d8ece09e.png",
     "static/media/ms dhoni.7ed0990d.png": "/Spotify/static/media/ms dhoni.7ed0990d.png",
@@ -29,9 +30,9 @@
     "static/media/xxx.bd1da00c.png": "/Spotify/static/media/xxx.bd1da00c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.36a9196a.js",
-    "static/js/2.e9243478.chunk.js",
-    "static/css/main.19bd2df4.chunk.css",
-    "static/js/main.f4ca71ef.chunk.js"
+    "static/js/runtime-main.1ae819dd.js",
+    "static/js/2.4a017743.chunk.js",
+    "static/css/main.269a5be0.chunk.css",
+    "static/js/main.b44ab043.chunk.js"
   ]
 }
