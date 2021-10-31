@@ -1,14 +1,12 @@
 import React from 'react'
 import './css/background.css'
 // import Playbar from './Playbar'
+import Preview from './Preview'
 export default function Liked() {
     return (
         <>
-        <div className="main-container">
-        <div className="moveright">
-
-        </div>
-    </div>
+            <Preview singer="Nisab Mohd" name="Liked Songs" img="heart"/>
+        
     {/* <Playbar /> */}
     </>
     )

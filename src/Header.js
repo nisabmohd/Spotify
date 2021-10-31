@@ -2,10 +2,18 @@ import React from 'react'
 import rightarr from './spotify icons/nextarr.png'
 import leftarr from './spotify icons/prevarr.png'
 import user from './user.jpg'
-export default function Header() {
+import { useState } from 'react'
+import sericon from './spotify icons/transsearch.png'
+import './css/header.css'
+export default function Header(props) {
+    const [display, setDisplay] = useState("hidden")
     function history(){
         window.history.back();
     }
+    function forward(){
+        window.history.forward();
+    }
+
     return (
         <div>
             <div className="header">
@@ -14,9 +22,15 @@ export default function Header() {
                             <img src={leftarr} alt="" className="arrowspeice" />
                         </button>
                         <button className="arr">
-                            <img src={rightarr} alt="" className="arrowspeice" />
+                            <img src={rightarr} alt="" onClick={forward} className="arrowspeice" />
                         </button>
                     </div>
+
+                   <div className={props.search}>
+                       <img src={sericon} alt="" />
+                       <input type="text" placeholder="Artists, song, or podcast"/>
+                   </div>
+
                     <div className="contact-info">
                         <div className="buttons">
                             <div className="ubtn-container">

@@ -17,47 +17,55 @@ import rico from './spotify icons/rico.png'
 import pauseic from './spotify icons/pauseico.png'
 import callyoumine from './Music/Call You Mine.mp3'
 
+import song1 from './Music/Call You Mine.mp3'
+
 
 
 
 export default function Playbar() {
+   
+    // let song= new Audio(song1)
     const [Img1, setImg1] = useState(pauseic);
-    const [play, setplay] = useState('play')
-    document.title = 'Can I Call You Mine'
+    const [mode, setMode] = useState('pause')
     function func() {
         let barrange = document.getElementById('barrange')
-        let callyoumine = document.getElementById('callyoumine')
-        let dur = ((callyoumine.duration))
-        let t=dur/600
-        // alert(dur)
-        if (play === 'play') {
+        let song = document.getElementById('songsbar')
+        if (mode === "pause") {
+            setMode('play')
             setImg1(playic)
-            callyoumine.play();
-            setplay('pause')
-            setInterval(() => {
-               barrange.value=t++
-            },dur*10);
-            if(barrange.value===100){
-                setImg1(playic)
+            song.play();
+            song.addEventListener('timeupdate', () => {
+                   barrange.value=parseInt((song.currentTime/song.duration)*100); 
+            })
+            document.title = 'Can I Call You Mine'
+            if( barrange.value===100){
+                setImg1(pauseic)
+                document.title = 'Spotify - Web player'
             }
-         }
-        if (play === 'pause') {
+
+        }
+        if (mode === "play") {
+            setMode('pause')
             document.title = 'Spotify - Web player'
             setImg1(pauseic)
-            callyoumine.pause();
-            barrange.value=t;
-            setplay('play')
-            return false
+            song.pause();
         }
     }
+
     function bvolume() {
         let bvol = document.getElementById('bvol').value;
         bvol = bvol / 100;
-        console.log(bvol);
-        document.getElementById('callyoumine').volume = bvol
+        document.getElementById('songsbar').volume = bvol
+
     }
+    function seek(){
+        let barrange = document.getElementById('barrange')
+        let song = document.getElementById('songsbar')
+        song.currentTime=(barrange.value*song.duration)/100;
+    }
+
     return (
-        <>
+        <div>
             <div className="bottom">
                 <div className="left">
                     <div className="thumbnail">
@@ -87,7 +95,7 @@ export default function Playbar() {
                         </div>
                     </div>
                     <div className="movebar">
-                        <input type="range" id="barrange" min="0" max="100" value="0" />
+                        <input type="range" id="barrange" onChange={seek} min="0" max="100" value="0" />
                     </div>
                 </div>
                 <div className="right">
@@ -103,8 +111,8 @@ export default function Playbar() {
                 </div>
             </div>
             <div className="audionow">
-                <audio id="callyoumine" src={callyoumine} controls></audio>
+                <audio id="songsbar" src={callyoumine} controls></audio>
             </div>
-        </>
+        </div>
     )
 }

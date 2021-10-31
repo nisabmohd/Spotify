@@ -1,15 +1,10 @@
 import React from 'react'
 import './css/background.css'
-// import Playbar from './Playbar'
+import Preview from './Preview'
 export default function Playlist() {
     return (
         <>
-        <div className="main-container">
-        <div className="moveright">
-
-        </div>
-    </div>
-    {/* <Playbar /> */}
-    </>
+            <Preview singer="By Nisab Mohd" name="My Playlist #6" img="playlist" />
+        </>
     )
 }

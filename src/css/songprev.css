@@ -44,3 +44,64 @@
 .singer{
     margin-left: 29px;
 }
+.songslists{
+    margin-top: 6vh;
+}
+.upperlisticons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.upperlisticons img{
+    width: 36px;
+    height: 36px;
+    margin: 0 16px;
+}
+.greenplaybtnprev img{
+    width: 69px;
+    height: 69px;
+}
+.titleline{
+    border-bottom: 0.5px solid  rgb(77, 77, 77);
+}
+.titleline p{
+    color: white;
+    word-spacing: 12px;
+    margin-left: 16px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.propsnamelist{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.number p{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 19px;
+    margin-left: 12px;
+}
+.nameofsongprop p{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+}
+.duration p{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.leftlist{
+    display: flex;
+    flex-direction: row;
+}
+.rightlist{
+    margin-left: auto;
+    margin-right: 19px;
+}

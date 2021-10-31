@@ -15,14 +15,15 @@ import Preview from "./Preview";
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div className="containerofmainpage">
         <Leftbar />
+      <Playbar song="callyou"></Playbar>
         <Switch>
           <Route exact path="/Spotify">
             <Page />
           </Route>
           <Route exact path="/search">
-            <Search />
+            <Search/>
           </Route>
           <Route exact path="/library">
             <Library />
@@ -47,7 +48,7 @@ function App() {
             <Preview singer="Why Don't We" name="Love Back" img="loveback" />
           </Route>
         </Switch>
-        <Playbar></Playbar>
+
       </div>
     </Router>
   )
