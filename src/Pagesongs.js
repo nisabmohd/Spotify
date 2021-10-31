@@ -1,5 +1,6 @@
 import React from 'react'
-
+import './css/resplib.css'
+import './css/library.css'
 import mythpat from './music thhb/mythpat.png'
 import ranveer from './music thhb/ranveer alh.png'
 import bose from './music thhb/bose.png'

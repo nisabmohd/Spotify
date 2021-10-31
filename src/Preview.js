@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import './css/songprev.css'
-import './css/background.css'
+// import './css/background.css'
 import createplay from './spotify icons/createplay.png'
 import counting from './music thhb/counting on you.png'
 import msdhoni from './music thhb/ms dhoni.png'
@@ -11,6 +11,7 @@ import pgheart from './spotify icons/pgheart.png'
 import greenplay from './spotify icons/greenplay.png'
 import transphrt from './spotify icons/hearttransp.png'
 import hordots from './spotify icons/hor_dots.png'
+import './css/respliked.css'
 export default function Preview(props) {
     let image;
     if (props.img === "ctng") {
@@ -32,8 +33,8 @@ export default function Preview(props) {
         image = createplay
     }
     return (
-        <div className="main-container">
-            <div className="moveright">
+        <div className="like-container">
+            <div className="likeright">
             <Header search="hidden"></Header>
                 <div className="songprev">
                     <div className="itemofsongpreev">
@@ -61,7 +62,7 @@ export default function Preview(props) {
 
             <div className="songslists">
                 <div className="main-container">
-                    <div className="moveright">
+                    <div className="likeright">
                         <div className="upperlisticons">
                             <div className="greenplaybtnprev">
                                 <img src={greenplay} alt="" />

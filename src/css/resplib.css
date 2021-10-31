@@ -1,0 +1,79 @@
+@media screen and (min-width:1630px){
+    .plsylistboxblur{
+        width: 20vw;
+    }
+    .exclusivespg{
+        display: none;
+    }
+    .playlistpagecontent{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+@media screen and (max-width:1385px) and(min-width:0px){
+    .plsylistboxblur{
+        width: 19vw;
+    }
+    .exclusivespg{
+        display: none;
+    }
+    .playlistpagecontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .library-moveright{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        width: 77.55%;
+        padding-top: 2vh;
+      }
+      .library-moveright{
+        width: 78.55%;
+    }
+}
+@media screen and (max-width:1275px){
+    .plsylistboxblur{
+        width: 20vw;
+        height: 295px;
+    }
+    .exclusivespg{
+        display: none;
+    }
+    .playlistpagecontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .library-moveright{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        width: 74.55%;
+        padding-top: 2vh;
+      }
+}
+@media screen and (max-width:1105px){
+    .plsylistboxblur{
+        width: 25vw;
+        height: 275px;
+    }
+    .exclusivespg{
+        display: none;
+    }
+    .playlistpagecontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .library-moveright{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        width: 70.55%;
+        padding-top: 2vh;
+      }
+}
+

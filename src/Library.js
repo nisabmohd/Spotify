@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/background.css'
+// import './css/background.css'
 import Header from './Header'
 import './css/library.css'
 import Pagesongs from './Pagesongs'
@@ -11,8 +11,8 @@ import createplay from './spotify icons/createplay.png'
 export default function Library() {
     return (
         <>
-            <div className="main-container">
-                <div className="moveright">
+            <div className="library-container">
+                <div className="library-moveright">
                     <Header search="hidden"></Header>
                     <div className="playlistpagecontent">
                         <div className="playlistpageheader">
@@ -45,7 +45,9 @@ export default function Library() {
                             </div>
                            
                         </Link>
+                        <div className="exclusivespg">
                         <Pagesongs></Pagesongs>
+                        </div>
                     </div>
                 </div>
             </div>

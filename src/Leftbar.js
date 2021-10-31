@@ -6,6 +6,7 @@ import search from './spotify icons/search.png'
 import lib from './spotify icons/library.png'
 import heart from './spotify icons/fav.png'
 import plus from './spotify icons/plus.png'
+
 import {
     Link
 } from "react-router-dom";

@@ -1,0 +1,506 @@
+/* 1570 */
+@media screen and (min-width:1570px){
+    .ipbox {
+        width:19vw;
+    }
+}
+@media screen and (max-width:1570px) and (min-width:1510px){
+    .ipbox {
+        width:295px;
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 19px;
+    }
+    .exboxes{
+        margin-right: 0;
+    }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+/* 1388 */
+@media screen and (max-width:1510px) and (min-width:1388px){
+    .ipbox {
+        width:19vw;
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 19px;
+    }
+    .exboxes{
+        margin-right: 0;
+    }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+/* 1275 */
+@media screen and (max-width:1388px)and (min-width:1275px){
+    .ipbox {
+        height: 75px;
+        width:17vw;
+        margin-right: 2vw;
+    }
+    .ipbox img{
+        height: 74.5px;
+    }
+    .boxtext p{
+        font-size: 13.75px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 19px;
+    }
+    .exboxes{
+        margin-right: 29px;
+        
+    }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+/* 1111 */
+@media screen and (max-width:1275px) and (min-width:1111px){
+    .ipbox {
+        height: 72px;
+        width:21vw;
+        margin-right: 3.7vw;
+    }
+    .ipbox img{
+        height: 71.5px;
+        width: 71.5px;
+    }
+    .boxtext p{
+        font-size: 13.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 5px;
+        width: fit-content;
+        margin-bottom: 15px;
+    }
+    .exboxes{
+        margin-right: 24px;
+        width: 175px;
+      height: 260px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 150px;
+          height: 160px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 15px;
+      }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+/* 1027 */
+@media screen and (max-width:1111px)and (min-width:1027px){
+    .ipbox {
+        height: 65px;
+        width:21vw;
+        margin-right: 3vw;
+    }
+    .ipbox img{
+        height: 64.5px;
+        width: 65.5px;
+    }
+    .boxtext p{
+        font-size: 13.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 15px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 5px;
+        width: 155px;
+      height: 240px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 135px;
+          height: 145px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 15px;
+      }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+/* 953 */
+@media screen and (max-width:1027px) and (min-width:953px){
+    
+    .ipbox {
+        height: 65px;
+        width:22.5vw;
+        margin-right: 1.8vw;
+    }
+    .ipbox img{
+        height: 64.5px;
+        width: 65.5px;
+    }
+    .boxtext p{
+        font-size: 13.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 15px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 5px;
+        width: 155px;
+      height: 240px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 135px;
+          height: 145px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 15px;
+      }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+/* 845 */
+@media screen and (max-width:953px)and (min-width:845px){  
+    .ipbox {
+        height: 65px;
+        width:21.5vw;
+        margin-right: 1.8vw;
+    }
+    .ipbox img{
+        height: 64.5px;
+        width: 65.5px;
+    }
+    .boxtext p{
+        font-size: 11.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 8px;
+        width: 155px;
+      height: 240px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 135px;
+          height: 145px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 13px;
+      }
+    .moveright{
+        margin-right: 0.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+/* 784 */
+@media screen and (max-width:845px) and (min-width:805px){  
+    .ipbox {
+        height: 62px;
+        width:22.5vw;
+        margin-right: 1vw;
+    }
+    .ipbox img{
+        height: 61.5px;
+        width: 61.5px;
+    }
+    .boxtext p{
+        font-size: 11.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 8px;
+        width: 150px;
+      height: 210px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 125px;
+          height: 135px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 12px;
+      }
+    .moveright{
+        margin-right: 1.5vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+/* 770 */
+@media screen and (max-width:805px) and (min-width:770px){  
+    .ipbox {
+        height: 62px;
+        width:30.5vw;
+        margin-right: 1vw;
+    }
+    .ipbox img{
+        height: 61.5px;
+        width: 61.5px;
+    }
+    .boxtext p{
+        font-size: 11.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 8px;
+        width: 150px;
+      height: 210px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 125px;
+          height: 135px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 12px;
+      }
+    .moveright{
+        margin-right: 1.5vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/* 759 */
+@media screen and (max-width:770px)and (min-width:760px){  
+    .ipbox {
+        height: 62px;
+        width:29.5vw;
+        margin-right: 1vw;
+    }
+    .ipbox img{
+        height: 61.5px;
+        width: 61.5px;
+    }
+    .boxtext p{
+        font-size: 11.25px;
+
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 19px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 8px;
+        width: 150px;
+      height: 210px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 125px;
+          height: 135px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 12px;
+      }
+    .moveright{
+        margin-right: 1.5vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* 655 */
+@media screen and (max-width:760px)and (min-width:655px){  
+    .ipbox {
+        height: 62px;
+        width:29.5vw;
+        margin-right: 3.5vw;
+    }
+    .ipbox img{
+        height: 61.5px;
+        width: 61.5px;
+    }
+    .boxtext p{
+        font-size: 11.25px;
+
+    }
+    .sname{
+        font-size: 10px;
+    }
+    .heartp img{
+        width: 11px;
+        height: 11px;
+    }
+    #news{
+        width: 9px;
+        height: 9px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .desc{
+        font-size: 8px;
+    }
+    .exclusives{
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exclusive-gris{
+        margin-right: 39px;
+        width: fit-content;
+        margin-bottom: 13px;
+    }
+    .exboxes{
+        margin-right: 8px;
+        width: 160px;
+      height: 210px;
+        
+    }
+    .exboxes img{
+        margin-top: 15px;
+          width: 138px;
+          height: 135px;
+          border-radius: 5px;
+          margin-bottom: 9px;
+      }
+      .authorex{
+          font-size: 12px;
+      }
+    .moveright{
+        margin-right: 1.85vw;
+    }
+    .indexformusic{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

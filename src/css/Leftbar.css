@@ -5,6 +5,27 @@
     display: flex;
     flex-direction: column;
     position: fixed;
+    overflow: hidden;
+    z-index: 999;
+}
+
+@media screen and (max-width:1027px)and (min-width:845px){
+    .leftbar{
+        width: 232px;
+    }
+}
+@media screen and (max-width:845px){
+    .leftbar{
+        width: 212px;
+    }
+}
+@media screen and (max-width:770px){ 
+    .leftbar{
+        width: 200px;
+    }
+    .tags{
+        font-size: 10px;
+    }
 }
 .main{
     margin-left: 22px;

@@ -1,3 +1,32 @@
+.library-container{
+    width: 100%;
+    padding-bottom: 19vh;
+    background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+  }
+  .library-moveright{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-top: 2vh;
+  }
+
+  .exclusivespg{
+      display: flex;
+      flex-direction: column;
+  }
+  @media screen and (max-width:1468px){
+    .exclusivespg{
+        display: none;
+    }
+    .library-moveright{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        padding-top: 2vh;
+      }
+
+}
 .plsylistboxblur{
     width: 430px;
     height: 285px;
@@ -6,6 +35,7 @@
     text-decoration: none;
     margin-right: 22px;
 }
+
 .h3wherelike{
     padding-top: 29%;
 }

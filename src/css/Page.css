@@ -82,7 +82,6 @@
     align-items: center;
   }
   .ipbox{
-      width: 70%;
       display: flex;
       flex-direction: row;
       background-image: linear-gradient(45deg,rgb(33, 37, 54), rgb(87, 77, 92));
@@ -92,6 +91,7 @@
       margin-bottom: 16px;
       cursor: pointer;
       text-decoration: none;
+      margin-right: 9px;
   }
   .ipimg img{
         width: 80px;
