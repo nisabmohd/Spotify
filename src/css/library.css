@@ -1,5 +1,6 @@
 .library-container{
     width: 100%;
+    height: 100vh;
     padding-bottom: 19vh;
     background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
   }
