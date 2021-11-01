@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/background.css'
+import './css/respliked.css'
 // import Playbar from './Playbar'
 import Preview from './Preview'
 import './css/resplib.css'

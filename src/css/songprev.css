@@ -1,3 +1,16 @@
+.like-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15vh;
+    background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+}
+.previewinsinglecony{
+    width: 77.8%;
+    margin-left: 1.25vw;
+    padding-top: 2vh;
+    margin-right: 3.5vw;
+}
+
 .songprev{
     margin-top: 29px;
     height: 235px;
