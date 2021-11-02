@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import './css/songprev.css'
-import './css/respprev.css'
+import './css/pewviewresp.css'
 import createplay from './spotify icons/createplay.png'
 import counting from './music thhb/counting on you.png'
 import msdhoni from './music thhb/ms dhoni.png'

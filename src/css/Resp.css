@@ -1,3 +1,13 @@
+@media screen and (min-width:1627px) {
+    .pagechildchild{
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+        
+    }
+    .pageparentparent{
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width:1627px) and (min-width:1586px){
     .indexformusic {
         display: grid;
@@ -35,10 +45,10 @@
         margin-right: 1vw;
         margin-bottom: 19px;
     }
-    .pageinsidecont{
+    /* .pageinsidecont{
         width: 74.85%;
         margin-left: auto;
-      }
+      } */
     
 }
 @media screen and (max-width:1352px)and (min-width:1106px){
@@ -64,10 +74,10 @@
         margin-right: 1vw;
         margin-bottom: 19px;
     }
-    .pageinsidecont{
+    /* .pageinsidecont{
         width: 70.4%;
         margin-left: auto;
-      }
+      } */
     
 }
 @media screen and (max-width:1106px)and (min-width:840px){
@@ -93,10 +103,10 @@
         margin-right: 1vw;
         margin-bottom: 19px;
     }
-    .pageinsidecont{
+    /* .pageinsidecont{
         width: 67.4%;
         margin-left: auto;
-      }
+      } */
     
 }
 @media screen and (max-width:840px)and (min-width:792px){
@@ -126,10 +136,10 @@
         width: 160px;
         height: 170px;
     }
-    .pageinsidecont{
+    /* .pageinsidecont{
         width: 67.4%;
         margin-left: auto;
-      }
+      } */
     
 }
 @media screen and (max-width:792px)and (min-width:654px){
@@ -168,10 +178,10 @@
         width: 160px;
         height: 170px;
     }
-    .pageinsidecont{
+    /* .pageinsidecont{
         width: 62.4%;
         margin-left: auto;
-      }
+      } */
     
 }
 
@@ -211,12 +221,60 @@
         width: 155px;
         height: 160px;
     }
-    .pageinsidecont{
+    /* .pageinsidecont{
         width: 62.4%;
         margin-left: auto;
-      }
+      } */
     
 }
+
+@media screen and (max-width:653px){
+    .ipbox{
+        width:305px;
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 169px;
+        height: 265px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 155px;
+        height: 160px;
+    }
+       .pagechildchild{
+           width: max-content;
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+        padding-right: 1vw;
+      } 
+      .pageparentparent{
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+      }
+}
+
+/* 
 @media screen and (max-width:648px)and (min-width:600px){
     .ipbox{
         width:30vw;
@@ -258,10 +316,6 @@
         width: 155px;
         height: 160px;
     }
-    .pageinsidecont{
-        width: 61.4%;
-        margin-left: auto;
-      }
     
     
 }
@@ -306,10 +360,6 @@
         width: 165px;
         height: 160px;
     }
-    .pageinsidecont{
-        width: 52.4%;
-        margin-left: auto;
-      }
       .pchildb img,.rbtns{
           width: 12px;
           height: 12px;
@@ -371,10 +421,6 @@
         width: 165px;
         height: 160px;
     }
-    .pageinsidecont{
-        width: 52.4%;
-        margin-left: auto;
-      }
       .pchildb img,.rbtns{
           width: 12px;
           height: 12px;
@@ -393,4 +439,4 @@
           width: 13px;
           height: 13px;
       }
-}
+} */

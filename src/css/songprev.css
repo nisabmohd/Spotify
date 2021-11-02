@@ -1,4 +1,5 @@
 .like-container{
+    height: 100%;
     display: flex;
     flex-direction: row;
     padding-bottom: 15vh;
@@ -118,3 +119,5 @@
     margin-left: auto;
     margin-right: 19px;
 }
+
+

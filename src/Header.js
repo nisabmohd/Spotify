@@ -2,11 +2,9 @@ import React from 'react'
 import rightarr from './spotify icons/nextarr.png'
 import leftarr from './spotify icons/prevarr.png'
 import user from './user.jpg'
-import { useState } from 'react'
 import sericon from './spotify icons/transsearch.png'
 import './css/header.css'
 export default function Header(props) {
-    const [display, setDisplay] = useState("hidden")
     function history(){
         window.history.back();
     }

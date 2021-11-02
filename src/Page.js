@@ -10,9 +10,6 @@ import whydontwe from './music thhb/why dont we.png'
 import xxx from './music thhb/xxx.png'
 import Fakeleftbar from './Fakeleftbar'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 import Header from './Header'

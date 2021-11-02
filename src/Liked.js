@@ -6,7 +6,10 @@ import Preview from './Preview'
 import './css/resplib.css'
 export default function Liked() {
     return (
+        <div className="likecontafprev">
+
                 <Preview singer="Nisab Mohd" name="Liked Songs" img="heart" />
+        </div>
             
     )
 }

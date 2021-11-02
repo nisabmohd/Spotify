@@ -1,7 +1,7 @@
 .leftbar{
     background-color: black;
     width: 262px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width:1027px)and (min-width:845px){
     .leftbar{
-        width: 232px;
+        width: 195px;
     }
 }
 @media screen and (max-width:845px){

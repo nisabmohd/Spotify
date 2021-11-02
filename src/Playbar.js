@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './css/Bottom.css'
+import './css/bottomresp.css'
 import t1 from './music thhb/call youu mine.jpg'
 import heart from './spotify icons/fav.png'
 import news from './spotify icons/news.png'
@@ -17,7 +18,7 @@ import rico from './spotify icons/rico.png'
 import pauseic from './spotify icons/pauseico.png'
 import callyoumine from './Music/Call You Mine.mp3'
 
-import song1 from './Music/Call You Mine.mp3'
+// import song1 from './Music/Call You Mine.mp3'
 
 
 
