@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Spotify/static/css/main.05f46d02.chunk.css",
+    "main.css": "/Spotify/static/css/main.fb514f45.chunk.css",
     "main.js": "/Spotify/static/js/main.09633316.chunk.js",
     "main.js.map": "/Spotify/static/js/main.09633316.chunk.js.map",
     "runtime-main.js": "/Spotify/static/js/runtime-main.872cdb02.js",
@@ -10,7 +10,7 @@
     "static/js/3.8a677d54.chunk.js": "/Spotify/static/js/3.8a677d54.chunk.js",
     "static/js/3.8a677d54.chunk.js.map": "/Spotify/static/js/3.8a677d54.chunk.js.map",
     "index.html": "/Spotify/index.html",
-    "static/css/main.05f46d02.chunk.css.map": "/Spotify/static/css/main.05f46d02.chunk.css.map",
+    "static/css/main.fb514f45.chunk.css.map": "/Spotify/static/css/main.fb514f45.chunk.css.map",
     "static/js/2.dcd72f2d.chunk.js.LICENSE.txt": "/Spotify/static/js/2.dcd72f2d.chunk.js.LICENSE.txt",
     "static/media/Call You Mine.cb956710.mp3": "/Spotify/static/media/Call You Mine.cb956710.mp3",
     "static/media/bose.310304f7.png": "/Spotify/static/media/bose.310304f7.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.872cdb02.js",
     "static/js/2.dcd72f2d.chunk.js",
-    "static/css/main.05f46d02.chunk.css",
+    "static/css/main.fb514f45.chunk.css",
     "static/js/main.09633316.chunk.js"
   ]
 }
