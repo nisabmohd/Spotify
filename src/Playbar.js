@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import './css/Bottom.css'
 import './css/bottomresp.css'
-import t1 from './music thhb/call youu mine.jpg'
 import heart from './spotify icons/fav.png'
 import news from './spotify icons/news.png'
 import shuffle from './spotify icons/shuffle.png'
@@ -16,36 +15,108 @@ import mic from './spotify icons/mic.png'
 import pcimg from './spotify icons/pcimg.png'
 import rico from './spotify icons/rico.png'
 import pauseic from './spotify icons/pauseico.png'
-import callyoumine from './Music/Call You Mine.mp3'
 
-// import song1 from './Music/Call You Mine.mp3'
-
+import t1 from './music thhb/call youu mine.jpg'
+import t2 from './music thhb/counting on you.png'
+import t3 from './music thhb/ms dhoni.png'
+import t4 from './music thhb/xxx.png'
+import t5 from './music thhb/why dont we.png'
+import song1 from './Music/Call You Mine.mp3'
+import song2 from './Music/Counting on You.mp3'
+import song3 from './Music/Besabriyaan.mp3'
+import song4 from './Music/Hope.mp3'
+import song5 from './Music/Why Dont We.mp3'
 
 
 
 export default function Playbar() {
-   
-    // let song= new Audio(song1)
+
+    const [index, setindex] = useState(0)
+    function prevsong() {
+        let barrange = document.getElementById('barrange')
+        if (index > 0) {
+            setindex(index - 1)
+            barrange.value = 0
+            setMode('pause')
+            func()
+        }
+        
+    }
+    function nextsong() {
+        let barrange = document.getElementById('barrange')
+        if (index < 5) {
+            setindex(index + 1)
+            barrange.value = 0
+            setMode('pause')
+            func()
+        }
+        if (index >= 4) {
+            setindex(0)
+            barrange.value = 0
+            setMode('pause')
+            setImg1(pauseic)
+            func()
+        }
+    }
+
+    const arrayofsongs = [
+        {
+            songplay: song1,
+            thumb: t1,
+            name: 'Call You Mine',
+            authorname: 'The Chainsmokers, Bebe Rexha'
+
+        },
+        {
+            songplay: song2,
+            thumb: t2,
+            name: 'Counting on You',
+            authorname: 'Taylor Cash'
+
+        },
+        {
+            songplay: song3,
+            thumb: t3,
+            name: 'Besabriyaan',
+            authorname: 'Arman Malik'
+
+        },
+        {
+            songplay: song4,
+            thumb: t4,
+            name: 'Hope',
+            authorname: 'XXXTENTACION'
+
+        },
+        {
+            songplay: song5,
+            thumb: t5,
+            name: 'Love Back',
+            authorname: 'Why Dont We'
+
+        }
+    ]
     const [Img1, setImg1] = useState(pauseic);
     const [mode, setMode] = useState('pause')
     function func() {
         let barrange = document.getElementById('barrange')
+        barrange.value = 0
         let song = document.getElementById('songsbar')
-        if (mode === "pause") {
+        if (mode === 'pause') {
             setMode('play')
             setImg1(playic)
             song.play();
+            document.title = arrayofsongs[index].name
             song.addEventListener('timeupdate', () => {
-                   barrange.value=parseInt((song.currentTime/song.duration)*100); 
+                barrange.value = parseInt((song.currentTime / song.duration) * 100);
+                if (song.currentTime === song.duration) {
+                    nextsong()
+                }
             })
-            document.title = 'Can I Call You Mine'
-            if( barrange.value===100){
-                setImg1(pauseic)
-                document.title = 'Spotify - Web player'
-            }
+
 
         }
-        if (mode === "play") {
+        if (mode === 'play') {
             setMode('pause')
             document.title = 'Spotify - Web player'
             setImg1(pauseic)
@@ -53,16 +124,21 @@ export default function Playbar() {
         }
     }
 
+
+
+
+
+
     function bvolume() {
         let bvol = document.getElementById('bvol').value;
         bvol = bvol / 100;
         document.getElementById('songsbar').volume = bvol
 
     }
-    function seek(){
+    function seek() {
         let barrange = document.getElementById('barrange')
         let song = document.getElementById('songsbar')
-        song.currentTime=(barrange.value*song.duration)/100;
+        song.currentTime = (barrange.value * song.duration) / 100;
     }
 
     return (
@@ -70,12 +146,12 @@ export default function Playbar() {
             <div className="bottom">
                 <div className="left">
                     <div className="thumbnail">
-                        <img className="tb" src={t1} alt="" />
+                        <img className="tb" src={arrayofsongs[index].thumb} alt="" />
                     </div>
                     <div className="songName">
-                        <p className="sname">Call You Mine</p>
+                        <p className="sname">{arrayofsongs[index].name}</p>
                         <p className="desc">
-                            The Chainsmokers, Bebe Rexha
+                            {arrayofsongs[index].authorname}
                         </p>
                     </div>
                     <div className="btnsforthis">
@@ -87,11 +163,11 @@ export default function Playbar() {
                     <div className="pbuttons">
                         <div className="pchildb">
                             <img src={shuffle} alt="" />
-                            <img src={prevm} alt="" />
+                            <img src={prevm} alt="" id="prevsongbtn" onClick={prevsong} />
                             <div className="playpause">
                                 <img src={Img1} alt="" id="play" onClick={func} />
                             </div>
-                            <img src={nextm} alt="" />
+                            <img src={nextm} alt="" id="nextsongbtn" onClick={nextsong} />
                             <img src={repeat} alt="" />
                         </div>
                     </div>
@@ -112,7 +188,7 @@ export default function Playbar() {
                 </div>
             </div>
             <div className="audionow">
-                <audio id="songsbar" src={callyoumine} controls></audio>
+                <audio id="songsbar" src={arrayofsongs[index].songplay} controls></audio>
             </div>
         </div>
     )
