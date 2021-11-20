@@ -2,13 +2,13 @@
 ### packages used :
 #### 1 . React Router
 #### 2 . gh pages
-### Check out the deployment : https://nisabmohd.github.io/Spotify/
+#### Check out the deployment : https://nisabmohd.github.io/Spotify/
 
-### Lessons Learned : 
+#### Lessons Learned : 
 Components, Rendering, React Routing, Linking, States, Events, Props, imports, Exports, Deployment of React app
 
 
-### Screenshots
+#### Screenshots
 
 ![App Screenshot](https://i.ibb.co/Wkv02v8/Screenshot1.png)
 
