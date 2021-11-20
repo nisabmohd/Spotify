@@ -8,7 +8,7 @@
 Components, Rendering, React Routing, Linking, States, Events, Props, imports, Exports, Deployment of React app
 
 
-#### Screenshots
+#### Screenshots : 
 
 ![App Screenshot](https://i.ibb.co/Wkv02v8/Screenshot1.png)
 
